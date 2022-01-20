@@ -38,7 +38,6 @@ body{
     
         }
     #Nombre{
-      background-image: url('../icono/person.png');
       background-repeat: no-repeat;
       background-position: 4px center;
       background-size: 20px;
@@ -52,13 +51,12 @@ body{
     }
     
     #Email{
-      background-image: url('../icono/letter.png');
       background-repeat: no-repeat;
       background-position: 4px center;
       background-size: 20px;
       display: flex;
       align-items: center;
-      width: 300px;
+      width: 250px;
       padding-left: 28px;
       height: 30px;
       border: 1px solid #a09999;
@@ -66,7 +64,6 @@ body{
     }
     
     #Telefono{
-      background-image: url('../icono/phone.png');
       background-repeat: no-repeat;
       background-position: 4px center;
       background-size: 20px;
@@ -103,22 +100,21 @@ body{
     font-size: 16px;
     margin-top:10px ;
     border-radius: 4px;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     cursor: pointer;
     }
     
     #btnGustos:hover {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     color: white;
     }
     
-    /*-------------------------------Tabla----------------------------------*/
     form {
         
         background-color: #FFFFFF;
         width: 350px;
-        height: 400px;
+        height: 450px;
         margin: 0 auto;
         padding: 10px;
         display: flex;
@@ -146,7 +142,6 @@ body{
      th, td {
         border: 1px solid #B7898D;
      }
-    /*----------------------------------------------------------------------*/
      #ocultar{
         text-align: left;
         font-weight:lighter; 
@@ -163,17 +158,37 @@ body{
       height: 31px;
       font-size: 16px;
       border-radius: 4px;
-      -webkit-transition-duration: 0.4s; /* Safari */
+      -webkit-transition-duration: 0.4s; 
       transition-duration: 0.4s;
       cursor: pointer;
       
     }
     
-    #BtnUtilidad:hover {
-      background-color: #a09999;
+    #Btncancelar:hover {
+      background-color: #c01111;
       color: white;
     }
     
+    #Btncancelar{
+        background-color: white;
+        color: #c01111;
+        border: #c01111 1px solid;
+        text-align: center;
+        display: inline-block;
+        height: 31px;
+        font-size: 16px;
+        border-radius: 4px;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        cursor: pointer;
+        
+      }
+      
+      #BtnUtilidad:hover {
+        background-color: #a09999;
+        color: white;
+      }
+
     a{
       margin-top: 10px;
       text-align: left;
