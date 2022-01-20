@@ -33,6 +33,7 @@ $(function ModificarTabla() {
                                 $('<p>').attr('id', 'modificar').text('Editar')
                             )
                     )
+                    
             );
 var cont =1;
 
