@@ -8,28 +8,37 @@
     <title>Parcial_Web</title>
 
     <link href="Diseños/Diseño.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/1a70808279.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script  src="Javascript/Funciones.js"></script>
+
 </head>
        <h1>Web Developer</h2>
        <body>
         <div class="input-contenedor">
     
-            <form action="" method="get">
+            <form action="" method="get" id="form">
 
                 <h2>formulario de afiliación</h2>
 
-                <div class="input-contenedor"> 
-                    <input type="text" placeholder="Nombre">
-                </div>
-                <div class="input-contenedor" >
-                    <input type="text" placeholder="Email">
-                </div>
-                <div class="input-contenedor"> 
-                    <input type="text" placeholder="Numero">
-                </div>
+                <div class="input-contenedor">
+                    <div class="input-contenedor">
+                      <input type="text" placeholder="Nombre Completo" maxlength="11" id="Nombre" > <i class="fas fa-user"></i>
+                    </div>
+              
+                    <div class="input-contenedor"> 
+                      <input type="text" placeholder="Email" maxlength="120" id="Email"> <i class="fas fa-envelope"></i>
+                    </div>
+              
+                    <div class="input-contenedor">
+                      <input type="text" placeholder="Telefono" maxlength="20" id="Telefono"> <i class="fas fa-phone"></i>
+                    </div>
+              
         
                 <div class="input-contenedor">
-                    <input type="text" name="Gustos" >
-                    <button type="button" >Gustos</button>
+                    <input type="text" name="Gustos"  id="GustosC" >
+                    <button type="button" id="btnGustos" >Gustos</button>
     
                 </div>
                 <div id="divtabla">
@@ -51,10 +60,11 @@
     
                     <p>Pulse Aceptar para guardar los cambios o Cancelar para anularlos</p>
                     <button type="submit" id="BtnUtilidad">Aceptar</button>
-                    <button type="reset" id="BtnUtilidad">Cancelar</button>
+                    <button type="reset" id="Btncancelar">Cancelar</button>
+                    
     
                 </div>
-                <a href="https://sites.google.com/view/dweb1-uis">ir a site a P Web</a>
+                <a href="https://sites.google.com/view/dweb1-uis">ir a site de P Web</a>
             </form>
     
     
